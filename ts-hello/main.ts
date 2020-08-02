@@ -1,3 +1,5 @@
+import { Point } from './point';
+
 // Types
 {
     let testing = 1;
@@ -176,6 +178,21 @@
     let point = new ConcreatePoint(1, 2);
     let x = point.x;
     point.x = 10;
+}
+
+// Properties
+{
+    class ConcreatePoint {
+        constructor(private _x?: number, private _y?: number) {
+        }
+
+        draw() {
+            console.log('X: ' + this._x + ', Y : ' + this._y);
+        }
+    }
+
+    let point = new ConcreatePoint(1, 2);
+    point.draw();
 }
 
 
