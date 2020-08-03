@@ -1,0 +1,11 @@
+What is components: A component ecapsulate Data, Html Template, Logic for view
+Module is a container for a group or related components, if the application grows, we need to break that module into smaller modules, which each module responsible for a specific area of our application
+
+Creating a components:
+1. Create a component
+2. Register it in a module
+3. Add an element in an HTML markup
+
+Create new component by Angular CLI:
+1. Open terminal
+2. Tap "ng g c <component name>"
