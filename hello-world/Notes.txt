@@ -9,3 +9,5 @@ Creating a components:
 Create new component by Angular CLI:
 1. Open terminal
 2. Tap "ng g c <component name>"
+
+template: '<h2>{{ getTitle() }}</h2>' is called Interpolation
